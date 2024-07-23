@@ -1,4 +1,0 @@
----
-# tasks file for sentrics
-
-- import_tasks: play.yml
