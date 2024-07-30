@@ -58,7 +58,7 @@ module "lambda_function" {
   source = "./lambda/lambda_function"
 
   region                  = "us-east-1"
-  lambda_function_name    = "ensure360-dashboard-qs-dev-dev-01"
+  lambda_function_name    = "ent360-dashboard-qs-dev-dev-01"
   lambda_role_arn         = module.lambda_iam_role.role_arn
   lambda_source_file      = "./lambda.js"  
   lambda_output_path      = "./lambda_function_payload.zip"
